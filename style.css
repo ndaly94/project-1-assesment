@@ -1,0 +1,22 @@
+html{
+    text-align:center;
+    font-family:"Tahoma";
+  }
+
+button {
+    display: inline-block;
+    padding: 8px 0px;
+    color: #fff;
+    font: normal 700 20px/1"Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    width: 50px;
+}
+
+button:hover {
+    background:white;
+    color:black;
+  border: 1px solid #ccc;
+
+}
+
