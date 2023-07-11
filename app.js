@@ -5,11 +5,11 @@ const subtract = document.getElementById('subtract')
 const add = document.getElementById('add')
 
 subtract.addEventListener('click', function() {
-    let result = num - parseInt(userInput.innerText)
+    let result = num =- parseInt(userInput.value)
     currentNumber.innerText = result
 })
 
 add.addEventListener('click', function() {
-    let result = num + parseInt(userInput.innerText)
+    let result = num =+ parseInt(userInput.value)
     currentNumber.innerText = result
 })
